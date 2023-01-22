@@ -1,0 +1,35 @@
+body{
+     @import url('https://fonts.google.com/specimen/Roboto');
+     font-family: 'Roboto', sans-serif;
+     padding: 0;
+     margin: 0;
+     background: plum;
+}
+
+.section-1{
+    margin: 0;
+    color: #e5e7eb;
+    padding: 20px;
+    background: #1f2937;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+
+    background: #1f2937;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main-section{
+    display: flex;
+}
+
+.text, .links{
+    font-size: 24px;
+    color: #f9faf8;
+}
